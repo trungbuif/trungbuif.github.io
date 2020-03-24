@@ -1,0 +1,365 @@
+*{margin: 0;padding: 0;}
+
+.avt img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.vid {
+    width: 100%;
+    height: 100%;
+}
+
+.year {
+    color: #2c383c;
+    font-size: 14px;
+}
+
+.year i {
+    color: #aaaaaa;
+}
+
+ul.filter-list {
+    margin-bottom: 36px;
+}
+
+.khoim5 hr.gachmo {
+    margin-top: 64px;
+}
+
+.khoim5 li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    color: #828282;
+    margin-right: 18px;
+}
+
+.sendme button {
+    width: 120px;
+    height: 43px;
+    background: #ffd42d;
+    border-radius: 4px;
+    border: none;
+    float: right;
+    color: #4e503b;
+}
+
+.sendme .col-8 input {
+    height: 95%;
+}
+
+.sendme input {
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    padding: 0 18px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.sendme h4 {
+    color: #2c383c;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.thongtin a {
+    color: #ffd42d;
+}
+
+.khoim3 li {
+    list-style: none;
+}
+
+.khoim3 p {
+    color: #828282;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.khoim3 h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c383c;
+}
+
+.khoim2 li {
+    list-style: none;
+}
+
+.khoim2 p {
+    color: #828282;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.khoim2 h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: #2c383c;
+}
+
+li.menu.m5 {
+    border-bottom: 0;
+}
+
+p.motanho {
+    font-size: 15px;
+    line-height: 24px;
+    color: #828282;
+}
+
+li.filter:hover {
+    background: #ffd42d;
+    color: #2c383c;
+}
+
+.portfolio li:hover .layer3 {
+    opacity: 1;
+}
+
+.portfolio li:hover .layer2 {
+    opacity: 1;
+}
+
+a.details {
+    color: #2c383c;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+p.motasp {
+    font-size: 11px;
+    font-style: italic;
+    color: #2c383c;
+}
+
+a.tensp, h4.tensp {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2c383c;
+    margin-top: 80px;
+}
+
+.layer3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+    cursor: pointer;
+    height: 100%;
+}
+
+.layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(255,212,45,0.9);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+img.layer1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.portfolio li {
+    list-style: none;
+    float: left;
+    position: relative;
+    width: 230px;
+    height: 184px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+}
+
+li.menu:hover {
+    color: #2c383c !important;
+    background: #ffd42d!important;
+}
+
+.filter-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 14px;
+    line-height: 35px;
+    color: #b1b1b1;
+    cursor: pointer;
+}
+
+.personal-info li span {
+    line-height: 42px;
+    font-size: 16px;
+    color: #484848;
+    font-weight: 400;
+    background: #f6f6f6;
+    border-left: 1px solid #ededed;
+    padding: 11px 15px;
+}
+
+.personal-info li em {
+    line-height: 43px;
+    font-size: 16px;
+    color: #9b9b9b;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0 15px;
+}
+
+.personal-info li {
+    float: left;
+    list-style: none;
+    border: 1px solid #ededed;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 43px;
+    overflow: hidden;
+}
+
+h3.tieude {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2c383c;
+}
+
+.khoim5 {
+    display: none;
+}
+
+.khoim4 {
+    display: none;
+}
+
+.khoim3 {
+    display: none;
+}
+
+.khoim2 {
+    display: none;
+}
+
+.khoim1 {
+    display: none;
+}
+
+hr.gachdam {
+    background: #ffd42d;
+    height: 6px;
+    width: 50px;
+    border: none;
+}
+
+p.tieudenho {
+    font-size: 24px;
+    font-weight: 300;
+    color: #2c383c;
+}
+
+.cot1 {
+    padding: 0;
+    flex: 0 0 28%;
+    max-width: 28%;
+}
+
+.cot2 {
+    background: white;
+    padding: 32px;
+    flex: 0 0 72%;
+    max-width: 72%;
+}
+
+body {
+    background: #a9a9a94d;
+}
+
+.cv {
+    margin: auto;
+    margin-top: 100px;
+}
+
+p.motagioithieu {
+    color: #828282;
+    font-size: 17px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+hr.gachnho {
+    background: #ffd42d;
+    width: 70px;
+    height: 3px;
+    border: none;
+}
+
+span.tenrieng {
+    font-weight: 700;
+    color: #000;
+}
+
+h2.tieudegioithieu {
+    font-size: 32px;
+    font-weight: 300;
+    color: #606060;
+}
+
+li.menu {
+    height: 70px;
+    text-align: right;
+    list-style: none;
+    background: #2e3640;
+    color: #d1d1d1;
+    padding: 24px;
+    font-size: 17px;
+    border-bottom: 1px solid #222b2e;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.avt {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: 120%;
+    background-position: center;
+    margin: auto;
+    box-shadow: 0 0 0 10px #ffffff52;
+}
+
+.khoiavt {
+    background-image: url(http://webpentagon.com/demo/themeforest/wordpress/vcard/wp-content/themes/vcard-demo/includes/images/profile-bg.jpg);
+    width: 100%;
+    height: 260px;
+    display: flex;
+    background-size: cover;
+}
+
+.active-cot1 {
+    color: #2c383c !important;
+    background: #ffd42d!important;
+}
+
+.active-cot2 {
+    display: unset
+}
+
+.active-filter {
+    background: #ffd42d;
+    color: #2c383c!important;
+}
